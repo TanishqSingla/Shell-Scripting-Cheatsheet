@@ -1,13 +1,12 @@
 ﻿# Index
-- [Index](#index)
-- [Hello World](#hello-world)
-- [Comments](#comments)
-- [Variables](#variables)
-  - [Reading Variables](#reading-variables)
-  - [Accessing Variables](#accessing-variables)
-  - [Do's and Don'ts](#dos-and-donts)
-- [Getting User Inputs With Prompts](#getting-user-inputs-with-prompts)
-
+- [Hello World](#Hello-World)
+- [Comments](#Comments)
+- [Variables](#Variables)
+  - [Reading Variables](#Reading-Variables)
+  - [Accessing Variables](#Accessing-Variables)
+  - [Dos and Don'ts](#Do's-and-Dont's)
+- [Getting user input with prompts](#Getting-User-Inputs-With-prompts)
+- [Arithmetic](#Arithmetic)
 # Hello World
 This is the code snippet for 'hello world' in shell
 
@@ -60,7 +59,13 @@ In bash by putting `$` symbol before a valid variable name, in most of the situa
 I personally find `$` as deferencing operator in this case, but `$` is used far more differently.
 
 
-## Do's and Don'ts 
+## Do's and Don'ts
+While giving variable names there are certain rules that one should follow.
+The most important ones are listed here
+- Never start a variable name starting with a number.
+- Avoid writing variable names in caps (since you may accidentally use a reserved name).
+- Give meaningful names to variable.
+- Don't be a dummy and add symbols like `$` `#` since they are reserved for other use
 # Getting User Inputs With Prompts
 If you also like making neat applications, or love giving attention to detail, then this section will show how to make Reading Variables cleanly.
 If you have tried reading input, you might have noticed there is no message, and the input part is left on you to remember what line gives input to what.
@@ -92,3 +97,5 @@ In the above code notice `-p` flag is used, short for prompt. This let's us crea
 This code on execution would work like this.
 ![Screenshot 2](Images/scrsht2.png)
 
+
+# Arithmetic
