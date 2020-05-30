@@ -1,10 +1,12 @@
 ﻿# Index
-- [Hello World](#Hello-World)
-- [Comments](#Comments)
-- [Variables](#Variables)
-- [Reading Variables](#Reading-Variables)
-- [Accessing Variables](#Accessing-Variables)
-- [Getting user input with prompts](#Getting-User-Inputs-With-prompts)
+- [Index](#index)
+- [Hello World](#hello-world)
+- [Comments](#comments)
+- [Variables](#variables)
+  - [Reading Variables](#reading-variables)
+  - [Accessing Variables](#accessing-variables)
+  - [Do's and Don'ts](#dos-and-donts)
+- [Getting User Inputs With Prompts](#getting-user-inputs-with-prompts)
 
 # Hello World
 This is the code snippet for 'hello world' in shell
