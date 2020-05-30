@@ -59,13 +59,29 @@ If you also like making neat applications, or love giving attention to detail, t
 If you have tried reading input, you might have noticed there is no message, and the input part is left on you to remember what line gives input to what.
 To solve that problem we can use prompts, in other words giving a message. We can simply do that by adding a message before taking input using `echo`
 ```bash
-echo "Enter first number"
+echo "Enter First Number "
 read x
-echo "Enter second number"
+echo "Enter Second Number "
 read y
 
-echo x
-echo y
+echo $x
+echo $y
 ```
+The above code would work something like this.
+![Screenshot 1](Images/scrsht1.png)
 
-![Screenshot-2020-05-31_00_23_40](Screenshot-2020-05-31_00_23_40.png)
+Don't get confused by 14 and 12, those are the inputs given by me.
+
+Now if you're like me who finds it annoying getting input on next line and find it more cleaner to get the input on the same line for this case.
+Don't worry `read` command got us covered.
+```
+read -p "Enter First Number: " x
+read -p "Enter Second Number: " y
+
+echo "Inputs are $x and $y"
+```
+In the above code notice `-p` flag is used, short for prompt. This let's us create a message to give while getting user input, like we created in this example.
+
+This code on execution would work like this.
+![Screenshot 2](Images/scrsht2.png)
+
