@@ -1,6 +1,7 @@
 ﻿# Index
-- [Hello World](# Hello World)
-- Comments
+- [Hello World](#Hello-World)
+- [Comments](#Comments)
+- [Variables](#Variables)
 
 # Hello World
 This is the code snippet for 'hello world' in shell
