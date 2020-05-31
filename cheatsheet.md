@@ -6,6 +6,9 @@
   - [Accessing Variables](#Accessing-Variables)
   - [Dos and Don'ts](#Do's-and-Dont's)
 - [Getting user input with prompts](#Getting-User-Inputs-With-prompts)
+- [Control Flow](#Control-Flow)
+  - [if-else](#If-else)
+  - [Switch](#Switch)
 - [Arithmetic](#Arithmetic)
 # Hello World
 This is the code snippet for 'hello world' in shell
@@ -95,7 +98,28 @@ echo "Inputs are $x and $y"
 In the above code notice `-p` flag is used, short for prompt. This let's us create a message to give while getting user input, like we created in this example.
 
 This code on execution would work like this.
+&nbsp;
 ![Screenshot 2](Images/scrsht2.png)
+
+# Control Flow
+As the name suggest this topic is about controling the flow of our script. 
+
+
+## Comparison
+## If-else
+One way to control flow of our program is by an if-else statement. 
+```bash
+```
+
+## Switch
 
 
 # Arithmetic
+In shell there are multiple ways to perform arithmetic operations, but first let's see what arithmetic operations we can do in shell.
+Arithmetic operations supported in shell are
+- `+` - Addition.
+- `-` - Subtraction.
+- `*` - Multiplication.
+- `/` - Division.
+- `%` - Modulus (gives remainder of a division).
+
