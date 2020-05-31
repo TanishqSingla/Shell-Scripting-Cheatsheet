@@ -97,8 +97,7 @@ echo "Inputs are $x and $y"
 ```
 In the above code notice `-p` flag is used, short for prompt. This let's us create a message to give while getting user input, like we created in this example.
 
-This code on execution would work like this.
-&nbsp;
+This code on execution would work like this.\
 ![Screenshot 2](Images/scrsht2.png)
 
 # Control Flow
