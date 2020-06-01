@@ -7,6 +7,7 @@
   - [Dos and Don'ts](#Do's-and-Dont's)
 - [Getting user input with prompts](#Getting-User-Inputs-With-prompts)
 - [Control Flow](#Control-Flow)
+  - [Comparison Operators](#Comparison-Operators)
   - [if-else](#If-else)
   - [Switch](#Switch)
 - [Arithmetic](#Arithmetic)
@@ -105,7 +106,13 @@ This code on execution would work like this.
 As the name suggest this topic is about controling the flow of our script. 
 
 
-## Comparison
+## Comparison Operators
+Before getting into the statement first, let's see the how to compare values in shell, since they'll be our conditions in control flow.
+
+To compare numbers
+
+To compare strings
+
 ## If-else
 One way to control flow of our program is by an if-else statement. 
 ```bash
